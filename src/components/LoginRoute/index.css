@@ -1,0 +1,105 @@
+.login-background-container {
+  min-height: 100vh;
+  background-color: #131313;
+  padding: 20px;
+  width: 100vw;
+}
+@media (min-width: 768px) {
+  .login-background-container {
+    background-image: url('https://res.cloudinary.com/dfekejyho/image/upload/v1703862885/netfilx_1_d5pqme.png');
+    background-size: cover;
+  }
+}
+
+.login-page-heading {
+  color: red;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.form-heading {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 23px;
+  color: white;
+}
+@media (min-width: 768px) {
+  .form-heading {
+    text-align: center;
+  }
+}
+
+.form-container {
+  min-height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .form {
+    background-color: #0c0b10;
+    opacity: 80%;
+    padding: 24px;
+  }
+}
+
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 95%;
+
+  margin-top: 15px;
+
+  margin-bottom: 22px;
+}
+@media (min-width: 768px) {
+  .form-input-container {
+    width: 380px;
+  }
+}
+.label {
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.input-element {
+  background-color: #333333;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.login-button {
+  background-color: red;
+  border-radius: 10px;
+  border: none;
+  width: 95%;
+  color: white;
+  font-weight: bold;
+  padding: 9px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .login-button {
+    width: 380px;
+  }
+}
+.error-msg {
+  color: #dc2626;
+  font-size: 16px;
+  font-weight: 400;
+}

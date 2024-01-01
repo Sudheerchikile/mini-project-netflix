@@ -1,0 +1,32 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #131313;
+  padding-top: 40px;
+}
+
+.contact-icons-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  margin-bottom: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icon {
+  color: #ffffff;
+  margin: 20px;
+  height: 30px;
+}
+
+.contact-text {
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  margin-bottom: 60px;
+  color: #ffffff;
+  font-weight: 500;
+}

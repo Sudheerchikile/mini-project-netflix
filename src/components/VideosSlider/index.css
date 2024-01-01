@@ -1,0 +1,26 @@
+.thumbnail {
+  height: 120px;
+  width: 70px;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.thumbnail.hover {
+  transform: scale(1.2);
+}
+@media screen and (min-width: 768px) {
+  .thumbnail {
+    height: 280px;
+    width: 236px;
+    border-radius: 14px;
+
+    margin-right: 10px;
+  }
+  .thumbnail:hover {
+    transform: scale(1.2);
+  }
+}
+
+.each-item {
+  margin-right: 15px;
+}

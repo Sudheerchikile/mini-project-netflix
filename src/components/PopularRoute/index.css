@@ -1,0 +1,22 @@
+.popular-bg-container {
+  background-color: #131313;
+}
+
+.popular-list-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.popular-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #131313;
+}

@@ -1,0 +1,52 @@
+.account-details-container {
+  padding-left: 12%;
+
+  padding-top: 3%;
+  padding-bottom: 6%;
+}
+.heading {
+  color: #131313;
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 26px;
+}
+
+.separator-line {
+  width: 2px;
+  color: #cbd5e1;
+}
+
+.side-heading {
+  color: #94a3b8;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.membership-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ultra-text {
+  border: 1px solid black;
+  padding: 1px;
+}
+.plan-details-container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.button {
+  background-color: red;
+  padding: 8px 20px 8px 20px;
+  border: none;
+  border-radius: 3px;
+}
