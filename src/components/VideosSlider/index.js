@@ -10,6 +10,7 @@ const VideosSlider = props => {
     dots: false,
     slidesToScroll: 1,
     slidesToShow: 4,
+    infinite: false,
     responsive: [
       {
         breakpoint: 768,
